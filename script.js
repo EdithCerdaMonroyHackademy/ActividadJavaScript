@@ -3,7 +3,7 @@ const ejercicio1 = [
     19, 88, 456, 13, 23, 24,
   ];
 for (let i = 0; i < ejercicio1.length; i++) {
-    if (i % i != 0) {
+    if (ejercicio1[i] % 2 == 1) {
         console.log(`${ejercicio1[i]}`);
       }
     
